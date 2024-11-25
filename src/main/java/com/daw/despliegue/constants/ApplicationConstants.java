@@ -16,6 +16,9 @@ public class ApplicationConstants {
     // Rutas del controlador de pedido
     public static final String ORDER_BASE_URL = BASE_URL + "/order/";
 
+    // Rutas del controlador de item
+    public static final String ITEM_BASE_URL = BASE_URL + "/item/";
+
     // Nombres de las tablas de la BD
     public static final String ORDER_TABLE_NAME = "order";
     public static final String CUSTOMER_TABLE_NAME = "customer";
