@@ -23,6 +23,8 @@ public class Order implements Serializable {
 
     private LocalDateTime orderDate;
 
+    private String status;
+
     private Double totalAmount;
 
     @OneToMany(mappedBy = ApplicationConstants.ITEM_ORDER_RELATIONAL_FIELD_NAME, cascade = CascadeType.ALL)
