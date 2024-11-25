@@ -21,9 +21,9 @@ public class CustomerService {
     public List<Customer> findAll() {
         var customers = customerRepository.findAll();
 
-        if (customers.isEmpty()) {
+        if (customers.isEmpty())
             throw new ResourceNotFoundException("No se han encontrado clientes registrados");
-        }
+
         return customers;
     }
 }
